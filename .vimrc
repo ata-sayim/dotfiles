@@ -1,0 +1,11 @@
+syntax on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set ai
+set smartindent
+set hlsearch
+set ruler
+set ttimeoutlen=0
+set relativenumber
+colorscheme ata
