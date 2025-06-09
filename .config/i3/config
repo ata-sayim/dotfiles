@@ -57,6 +57,10 @@ exec --no-startup-id dunst
 # Change Border Colors
 client.focused #9c0000 #2d2d2d #bdbdbd #9c0000 #9c0000
 
+# Keybinds
+exec --no-startup-id setxkbmap -option ctrl:nocaps
+exec --no-startup-id xcape -e 'Control_L=Escape'
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
